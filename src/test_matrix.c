@@ -613,7 +613,7 @@ Suite *s21_matrix_suite(void) {
   tcase_add_test(tc, test_inverse_3);
   tcase_add_test(tc, test_inverse_4);
   tcase_add_test(tc, test_inverse_5);
-  // tcase_add_test(tc, test_inverse_6);
+  tcase_add_test(tc, test_inverse_6);
 
   tcase_add_test(tc, test_eq_matrix);
 
